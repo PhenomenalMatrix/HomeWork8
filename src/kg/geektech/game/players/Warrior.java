@@ -10,9 +10,11 @@ public class Warrior extends Hero {
 
     @Override
     public void applySuperAbility(Boss boss, Hero[] heroes) {
-        Random ra = new Random();
-        int indexRa = ra.nextInt(4)+2;
-        this.setDamage(this.getDamage() * indexRa);
+            Random ra = new Random();
+            int indexRa = ra.nextInt(4) + 2;
+            this.setDamage(this.getDamage() * indexRa);
+            System.out.println(this.getDamage());
+
 
     }
 }

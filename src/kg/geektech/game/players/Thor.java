@@ -15,6 +15,5 @@ public class Thor extends Hero {
             boss.setDamage(boss.getDamage() * indexRandom);
             System.out.println("Босс застанен");
         }
-
     }
 }
